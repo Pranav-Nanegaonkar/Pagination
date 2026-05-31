@@ -1,4 +1,7 @@
 package com.app.exception;
 
-public class InvalidPageRequestException {
+public class InvalidPageRequestException extends RuntimeException {
+    public InvalidPageRequestException(String message) {
+        super(message);
+    }
 }
