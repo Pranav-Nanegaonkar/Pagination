@@ -1,0 +1,9 @@
+#file: noinspection YAMLSchemaValidation
+spring:
+  application:
+    name: Pagination
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/${DB_NAME}?useSSL=false&serverTimezone=UTC
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
